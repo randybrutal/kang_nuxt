@@ -15,6 +15,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  // 礙於網域是 github.io，為了讓 router 自動加上 <repository_name> 前綴
+  router: {
+    base: '/kang_nuxt/'
+  },
   /*
   ** Customize the progress-bar color
   */
