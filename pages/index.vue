@@ -24,7 +24,7 @@
           GitHub
         </a>
         <a
-          href="/Gallery"
+          href="/kang_nuxt/Gallery"
           class="button--grey"
         >
           gallery
