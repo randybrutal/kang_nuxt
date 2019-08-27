@@ -24,12 +24,14 @@
           GitHub
         </a>
         <a
-          href="/kang_nuxt/Gallery"
+          href="/kang_nuxt/Gallery/Gallery"
           class="button--grey"
         >
           gallery
         </a>
+        <nuxt-link to="/Gallery/Gallery">首页</nuxt-link>
       </div>
+      <nuxt-child/>
     </div>
   </div>
 </template>

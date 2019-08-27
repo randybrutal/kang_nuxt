@@ -19,6 +19,12 @@ export default {
   router: {
     base: '/kang_nuxt/'
   },
+  vue: {
+    config: {
+      productionTip: false,
+      devtools: true
+    }
+  },
   /*
   ** Customize the progress-bar color
   */
